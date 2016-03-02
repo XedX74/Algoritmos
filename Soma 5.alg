@@ -4,22 +4,26 @@ algoritmo "Soma5"
 // Data : 02/03/2016
 // Seção de Declarações 
 var
-   n1, n2, n3, n4, n5 : inteiro
-   r : inteiro
+   soma, valor : inteiro
 
 inicio
 // Seção de Comandos
+   soma<- 0
    escreva("Digite o valor do n1: ")
-   leia(n1)
+   leia(valor)
+   soma<- soma + valor
    escreva("Digite o valor do n2: ")
-   leia(n2)
+   leia(valor)
+   soma<- soma + valor
    escreva("Digite o valor do n3: ")
-   leia(n3)
+   leia(valor)
+   soma<- soma + valor
    escreva("Digite o valor do n4: ")
-   leia(n4)
+   leia(valor)
+   soma<- soma + valor
    escreva("Digite o valor do n5: ")
-   leia(n5)
-   r<-n1+n2+n3+n4+n5
-   escreva("O resultado da soma é", r)
+   leia(valor)
+   soma<- soma + valor
+   escreva("O resultado da soma é", soma)
 
 fimalgoritmo
